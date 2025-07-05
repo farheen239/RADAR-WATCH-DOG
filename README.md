@@ -1,0 +1,3 @@
+
+
+This DIY radar system uses an **Arduino Uno**, an **HC‑SR04 ultrasonic sensor**, and a **servo motor** to scan a 180° arc, detect nearby objects, and output distance readings. The servo sweeps the ultrasonic module back and forth, while the sensor emits ultrasonic pulses and measures echo time to calculate distance in centimeters. At each angle in the sweep, the Arduino retrieves and prints the angle and distance (e.g., “90°, 45 cm”) to the serial monitor, which can be visualized using tools like Processing. It’s a great beginner-friendly project that teaches sensor interfacing, PWM-based servo control, serial communication, and real-time data acquisition—perfect for exploring robotics, obstacle detection, and
